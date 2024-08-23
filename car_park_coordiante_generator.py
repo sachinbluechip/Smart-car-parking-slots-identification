@@ -13,7 +13,7 @@ def demostration():
     coordinate_generator.read_positions()
 
     # setting the initial variables
-    image_path = "/Users/chalana/Desktop/car-parking-finder/data/source/example_image.png"
+    image_path = "data/source/example_image.png"
     rect_width, rect_height = coordinate_generator.rect_width, coordinate_generator.rect_height
 
     # serving the GUI window until user terminates it

@@ -10,8 +10,8 @@ def demostration():
 
     # defining the params
     rect_width, rect_height = 107, 48
-    carp_park_positions_path = "/Users/chalana/Desktop/car-parking-finder/data/source/CarParkPos"
-    video_path = "/Users/chalana/Desktop/car-parking-finder/data/source/lot.mp4"
+    carp_park_positions_path = "data/source/CarParkPos"
+    video_path = "data/source/carPark.mp4"
 
     # creating the classifier  instance which uses basic image processes to classify
     classifier = Park_classifier(carp_park_positions_path, rect_width, rect_height)
